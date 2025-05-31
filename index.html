@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vivek Prajapati | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+  <header>
+    <nav>
+  <div class="logo">Vivek</div>
+  <button id="nav-toggle" aria-label="Open navigation">&#9776;</button>
+  <ul id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+</nav>
+  </header>
+  <section class="hero fade-in">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img"/>
+      <h1>Vivek Prajapati</h1>
+      <h2><span id="typed"></span></h2>
+      <p>Looking for internship and excited to work and explore the world!</p>
+      <div style="margin: 2rem 0;">
+        <a href="#contact" class="cta-btn">Let's Connect</a>
+        <a href="V_P_Resume.pdf" class="cta-btn" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about fade-in">
+    <h2>About Me 🪐</h2>
+    <p>
+      Hi! I'm Vivek Prajapati, a passionate web developer with a love for technology and learning.
+      I am actively looking for internship opportunities and eager to work, grow, and explore new horizons in the tech world.
+    </p>
+  </section>
+  <section id="projects" class="projects fade-in">
+    <h2>Projects 🌌</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>URL Shortener</h3>
+        <p>
+          A simple tool to shorten long URLs.<br>
+          <a href="https://vivek2034.github.io/URL-Shortener/" target="_blank">View Project 🚀</a>
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>Link-to-QR-Code</h3>
+        <p>
+          Convert any link to a QR code instantly.<br>
+          <a href="https://vivek2034.github.io/Link-to-QR-Code/" target="_blank">View Project 🚀</a>
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>CATCH-THE-BALL</h3>
+        <p>
+          A fun web game to test your reflexes.<br>
+          <a href="https://vivek2034.github.io/CATCH-THE-BALL/" target="_blank">View Project 🚀</a>
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>Flappy-Bird-2D</h3>
+        <p>
+          A 2D version of the popular Flappy Bird game.<br>
+          <a href="https://vivek2034.github.io/Flappy-Bird-2d/" target="_blank">View Project 🚀</a>
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>X-O.game</h3>
+        <p>
+          Classic Tic-Tac-Toe game on the web.<br>
+          <a href="https://vivek2034.github.io/X-O.game/" target="_blank">View Project 🚀</a>
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>Positive Affirmations</h3>
+        <p>
+          Generate random positive affirmations.<br>
+          <a href="https://vivek2034.github.io/Positive-Affirmations/" target="_blank">View Project 🚀</a>
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>To Motivate</h3>
+        <p>
+          Get daily motivation and inspiration.<br>
+          <a href="https://vivek2034.github.io/To-Motivate/" target="_blank">View Project 🚀</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills fade-in">
+    <h2>Skills 🛰️</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>MySQL</li>
+      <li>Android Studio</li>
+    </ul>
+  </section>
+  <section id="contact" class="contact fade-in">
+    <h2>Contact 🛸</h2>
+    <form action="https://formsubmit.co/forworkonly3004@gmail.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html">
+      <button type="submit" class="cta-btn">Send Message</button>
+    </form>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/vivek-prajapati-699308251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+      <a href="https://github.com/vivek2034" target="_blank">GitHub</a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Vivek Prajapati. All rights reserved.</p>
+  </footer>
+  <!-- Back-to-Top Button -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
