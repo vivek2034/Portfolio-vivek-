@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+  <canvas id="starfield"></canvas>
   <!-- Scroll Progress Bar -->
   <div id="scroll-progress"></div>
   <header>
@@ -19,7 +20,9 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+  <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+    <span id="dark-icon" class="icon-moon">🌙</span>
+  </button>
 </nav>
   </header>
   <section class="hero fade-in">
@@ -113,8 +116,7 @@
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://vivek2034.github.io/Portfolio-vivek-/thankyou.html" />
-      <button type="submit" class="cta-btn">Send Message</button>
+<input type="hidden" name="_next" value="https://vivek2034.github.io/Portfolio-vivek-/thankyou.html" />      <button type="submit" class="cta-btn">Send Message</button>
     </form>
     <div class="socials">
       <a href="https://www.linkedin.com/in/vivek-prajapati-699308251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
@@ -127,5 +129,6 @@
   <!-- Back-to-Top Button -->
   <button id="backToTop" aria-label="Back to top">↑</button>
   <script src="script.js"></script>
+  <div id="custom-cursor"></div>
 </body>
 </html>
